@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css"/>
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Trident Edits</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+<!-- TODO: Fix the stretching out of bounds!!!  -->
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Trident Edits</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="uil uil-estate nav__icon"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> About
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i> Skills
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                                <i class="uil uil-briefcase-alt nav__icon"></i> Services
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i> Portfolio
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contactme" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> Contact Me
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav_btns">
+                    <!-- Theme Changer -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>  
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-money-stack"></i>
+                            </a>
+
+                            <a href="https://twitter.com/ForkofTheSea" target="_blank" class="home__social-icon">
+                                <i class="uil uil-twitter"></i>
+                            </a>
+
+                            <a href="https://instagram.com/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-instagram"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M42.4,-42C58.9,-25.9,78.9,-13,81,2.1C83,17.1,67.2,34.2,50.7,49.7C34.2,65.1,17.1,78.8,2.3,76.5C-12.5,74.2,-24.9,55.8,-32.2,40.4C-39.4,24.9,-41.5,12.5,-41.6,-0.1C-41.7,-12.7,-39.9,-25.4,-32.6,-41.4C-25.4,-57.4,-12.7,-76.7,0.1,-76.9C13,-77,25.9,-58,42.4,-42Z" transform="translate(100 100)" />
+                                </mask>
+                                                                                        
+                                <g mask="url(#mask0)">
+                                    <path d="M42.4,-42C58.9,-25.9,78.9,-13,81,2.1C83,17.1,67.2,34.2,50.7,49.7C34.2,65.1,17.1,78.8,2.3,76.5C-12.5,74.2,-24.9,55.8,-32.2,40.4C-39.4,24.9,-41.5,12.5,-41.6,-0.1C-41.7,-12.7,-39.9,-25.4,-32.6,-41.4C-25.4,-57.4,-12.7,-76.7,0.1,-76.9C13,-77,25.9,-58,42.4,-42Z" transform="translate(100 100)" />
+                                    <image class="home__blob-img" x="22" y="18" xlink:href="assets/img/logo.png"/>
+                                </g>
+                            </svg>    
+                        </div>
+                        
+                    </div>
+                    <div class="home__data">
+                        <h1 class="home__title">Welcome to Trident Edits!</h1>
+                        <h3 class="home__subtitle">Professional Photo and Video Editor.</h3>
+<!-- TODO: Fix the description -->
+                        <p class="home__description">The best quality edits for your online content across all social medias and platforms!<br>
+                            Do you want to captivate the attention of your audience? Trident Edits will turn you into a shining beacon amongst all the competitors </p>
+                        <a href="#contact" class="button button--flex">
+                            Contact Me<i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <spam class="home__scroll-name">Scroll down</spam>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">Brief Introduction</span>
+                
+                <div class="about__container container grid">
+                    <img src="assets/img/logo.png" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <p class="about__description">
+                            I'm <strong>Trident Edits</strong>, a professional photo and video editor and a web developer!<br>
+                            <br> ita
+                            With over <strong>7 years</strong>  of experience with industry standards software <strong> <i>Photoshop</i> </strong>  and <strong> <i>Premiere Pro</i> </strong>.  <br> <br>
+                            After years of honing my skills and studying the <strong> <i>mysterious</i> </strong> YouTube Algorithm, I can and with <strong>full certainty</strong> 
+                            guarentee that your <strong> <i>Thumbnails</i> </strong> and <strong> <i>Videos</i> </strong> will start to make the diffrence!
+                        </p>
+
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">+07</span>
+                                <span class="about__info-name">Years of<br> experience</span>
+                            </div>
+
+                            <div>
+                                <span class="about__info-title">+60</span>
+                                <span class="about__info-name">Completed <br> projects</span>
+                            </div>
+
+                            <div>
+                                <span class="about__info-title">+20</span>
+                                <span class="about__info-name">Satisfied <br> clients</span>
+                            </div>
+                        </div>
+
+                  
+                    </div> 
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <section class="skills section" id="skills">
+                    <h2 class="section__title">Skills</h2>
+                    <span class="section__subtitle">My Technical Level</span>
+
+                    <div class="skills__container container grid">
+                        <div>
+                          <!--==================== SKILL 1 ====================-->
+                          <div class="skills__content skills__open">
+                            <div class="skills__header">
+                                <i class="uil uil-camera skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">2D Graphics Designer</h1>
+                                    <span class="skills__subtitle">More than 7 years</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Adobe Photoshop</h3>
+                                        <span class="skills__number">
+                                            <i class="uil uil-adobe qualification__icon"></i>
+                                        </span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__100"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Adobe Lightroom</h3>
+                                        <span class="skills__number">
+                                            <i class="uil uil-adobe qualification__icon"></i>
+                                        </span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__100"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Adobe Illustrator</h3>
+                                        <span class="skills__number">
+                                            <i class="uil uil-adobe qualification__icon"></i>
+                                        </span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__100"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Figma</h3>
+                                        <span class="skills__number">
+                                            <i class="uil uil-swatchbook qualification__icon"></i>
+                                        </span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__100"></span>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>  
+                
+                          <!--==================== SKILL 2 ====================-->
+                          <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-film skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Video and VFX Editor</h1>
+                                    <span class="skills__subtitle">More than 6 years</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Adobe Premiere Pro</h3>
+                                        <span class="skills__number">
+                                            <i class="uil uil-adobe qualification__icon"></i>
+                                        </span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__100"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Adobe After Effects</h3>
+                                        <span class="skills__number">
+                                            <i class="uil uil-adobe qualification__icon"></i>
+                                        </span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__100"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">DaVinci Resolve</h3>
+                                        <span class="skills__number">
+                                            <i class="uil uil-palette qualification__icon"></i>
+                                        </span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__100"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Final Cut Pro</h3>
+                                        <span class="skills__number">
+                                            <i class="uil uil-apple qualification__icon"></i>
+                                        </span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__90"></span>
+                                    </div>
+                                </div>
+                            </div>
+                          </div> 
+                        </div>
+
+                        <div>
+                          <!--==================== SKILL 3 ====================-->
+                          <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-desktop skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Frontend Developer</h1>
+                                    <span class="skills__subtitle">More than 4 years</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <span class="skills__number">
+                                            <i class="uil uil-java-script qualification__icon"></i>
+                                        </span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__100"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__number">
+                                            <i class="uil uil-html5 qualification__icon"></i>
+                                        </span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__100"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__number">
+                                            <i class="uil uil-css3-simple qualification__icon"></i>
+                                        </span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__100">
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">React JS</h3>
+                                        <span class="skills__number">
+                                            <i class="uil uil-react qualification__icon"></i>
+                                        </span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__100"></span>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+         
+            <!--==================== SERVICES ====================-->
+            <section class="services section" id="services">
+                <h2 class="section__title">Services</h2>
+                <span class="section__subtitle">What I offer</span>
+
+                <div class="services__container container grid">
+                    <!--==================== SERVICE 1 ====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-youtube services__icon"></i>
+                            <h3 class="services__title">Thumbnail<br> Design</h3>
+                        </div>
+                    
+                        <span class="button button--flex button--small button--link services__button">
+                            View More
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+                        
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Thumbnail<br> Design</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Gaming Channels Thumbnails</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Cooking Channnels Thumbnails</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Tech Review Channels Thumbnails</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Commentary Channels Thumbnails</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Documentry Channels Thumbnails</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Travel Channels Thumbnails</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Niche Channels Thumbnails</p>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!--==================== SERVICE 2 ====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-youtube services__icon"></i>
+                            <h3 class="services__title">Video <br> Editing</h3>
+                        </div>
+                    
+                        <span class="button button--flex button--small button--link services__button">
+                            View More
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+                        
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Video <br> Editing</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Gaming Videos</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Cooking Videos</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Tech Reviews</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Commentary Videos</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Documentries</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Travel VLOGS</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Tutorial Video Editing</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Basic or Advanced Cuts</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Cutting Videos</p>
+                                    </li>
+                                
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!--==================== SERVICE 3 ====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-youtube services__icon"></i>
+                            <h3 class="services__title">Avatars <br> & Banners</h3>
+                        </div>
+                    
+                        <span class="button button--flex button--small button--link services__button">
+                            View More
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+                        
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Avatars <br> & Banners</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Gaming Channels Avatars and Banners</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Cooking Channels Avatars and Banners</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Simplistic / Minimalistic Channels Avatars and Banners</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Documentry Channels Avatars and Banners</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Tech Reviews Channels Avatars and/ Banners</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Programming / Education Channels Avatars and Banners</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section  swiper" id="portfolio">
+                <h2 class="section__title">Portfolio</h2>
+                <span class="section__subtitle">Most Recent Work</span>
+
+                <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== PORTFOLIO 1 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Modern Website</h3>
+                                <p class="portfolio__description">Omni-screen adaptive website, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, praesentium rerum necessitatibus, distinctio libero, sint temporibus</p>
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 2 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">I made laplopts</h3>
+                                <p class="portfolio__description">Omni-screen adaptive website, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, praesentium rerum necessitatibus, distinctio libero, sint temporibus</p>
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 3 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Ymak book</h3>
+                                <p class="portfolio__description">Omni-screen adaptive website, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, praesentium rerum necessitatibus, distinctio libero, sint temporibus</p>
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Add arrows -->
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                        
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <!--==================== PROJECT IN MIND ====================-->
+            <section class="project section">
+                <div class="project__bg">
+                    <div class="project__container contaier grid">
+                        <div class="project__data">
+                            <h2 class="project__title">You have a new Project in mind?</h2>
+                            <p class="project__description">Contact me now and let us work together on making your dream into a reality!</p>
+                            <a href="#contactme" class="button button--flex button--white">
+                                Contact Me
+                                <i class="uil uil-message project__icon button__icon"></i>
+                            </a>
+                        </div>
+
+                        <img src="assets/img/logo.png" alt="" class="project__img">
+                    </div>
+                </div>
+            </section>
+            <!--
+              
+            -->
+            <!--==================== TESTIMONIAL ====================-->
+<!-- TODO: This entire part isn't working as intended  -->
+            
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contactme">
+                <h2 class="section__title">Contact Me</h2>
+                <span class="section__subtitle">Get in touch</span>
+
+                <div class="contact__container container grid">
+                    <div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <span class="contact__subtitle">example@gmail.com</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-twitter contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Twitter</h3>
+                                <span class="contact__subtitle">@ForkofTheSea</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Location</h3>
+                                <span class="contact__subtitle">North Carolina - USA</span>
+                            </div>
+                        </div>
+
+                        <form action="" class="contact__form grid">
+                            <div class="contact__inputs grid">
+                                <div class="contact__content">
+                                    <label for="" class="contact__label">Name</label>
+                                    <input type="text" placeholder="Name" class="contact__input">
+                                </div>
+
+                                <div class="contact__content">
+                                    <label for="" class="contact__label">Email</label>
+                                    <input type="email" placeholder="Email" class="contact__input">
+                                </div>
+                            </div>
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Project</label>
+                                <input type="text" placeholder="Project topic" class="contact__input">
+                            </div>
+
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Message</label>
+                                <textarea name="" id="" cols="0" rows="7" placeholder="Enter your message" class="contact__input"></textarea>
+                            </div>
+
+                            <div>
+                                <a href="#" class="button button--flex">
+                                    Send Message
+                                    <i class="uil uil-message button__icon"></i>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Trident Edits</h1>
+                        <span class="footer__subtitle">Photo and Video Editor!</span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#servicres" class="footer__link">Services</a>
+                        </li>
+
+                        <li>
+                            <a href="#portfolio" class="footer__link">Portfolio</a>
+                        </li>
+
+                        <li>
+                            <a href="#contactme" class="footer__link">Contact Me</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="" target="_blank" class="footer__social">
+                            <i class="uil uil-github"></i>
+                        </a>
+
+                        <a href="" target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+
+                        <a href="" target="_blank" class="footer__social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <p class="footer__copy">&#169; Trident Edits. All rights reserved</p>
+            </div>
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
